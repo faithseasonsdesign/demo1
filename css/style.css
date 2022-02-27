@@ -1,0 +1,232 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+a{
+    text-decoration:none !important;
+    color:white !important;
+}
+.nav-button{
+    font-size:20pt;
+}
+
+.landing-section{
+    min-height:70vh;
+    background:url("../images/5.jpg");
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+}
+.mask{
+    min-height:70vh;
+    background-color:rgb(0 0 0 / 87%);
+    background-size:100%;
+}
+.welcome-caption{
+    font-size:40pt;
+    padding-top:22vh;
+}
+.portfolio-btn,.in-touch-btn{
+    font-size:15pt;
+}
+
+
+
+.custom-shape-divider-bottom-1631908932 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1631908932 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1631908932 .shape-fill {
+    fill: #fdf5e6;
+}
+
+.about-section{
+    padding-top:60px;
+    padding-bottom:300px;
+}
+
+.team-section{
+    padding-top:100px;
+    padding-bottom:240px;
+}
+.services-section{
+    background-color:#071a4a;
+    padding-bottom:240px;
+}
+.footer{
+    background-color:#071a4a !important;
+}
+
+@media screen and (max-width:767px){
+    .landing-section{
+        min-height:60vh;
+        padding-top:60px;
+    }
+    .mask{
+        margin-top:-60px;
+        min-height:70vh;
+        background-color:rgb(0 0 0 / 87%);
+        background-size:100%;
+    }
+    .welcome-caption{
+        font-size:32pt;
+        padding-top:16vh;
+    }
+    .build-caption{
+        font-size:12pt;
+    }
+    .portfolio-btn,.in-touch-btn{
+        font-size:10pt;
+    }
+    .custom-shape-divider-bottom-1631908932 svg {
+        width: calc(100% + 10px);
+        height: 90px;
+    }
+    .about-section{
+    padding-top:0px;
+}
+    .about-caption{
+        margin-top:20px;
+    }
+    .about-col{
+        margin-top:40px;
+    }
+    .team-card{
+        margin-top:40px;
+    }
+    .team-section{
+    padding-top:100px;
+    padding-bottom:160px;
+}
+    .services-section{
+        background-color:#071a4a;
+        padding-bottom:150px;
+    }
+
+}
+.avatar{
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+
+@media screen and (min-width:0px) and (max-width:230px){
+    .welcome-caption{
+        padding-top:120px;
+        font-size:30px;
+    }
+}
+
+@media screen and (min-width:668px) and (max-width:990px){
+    .about-caption{
+        font-size:17px;
+    }
+    .experts-caption{
+        font-size:19px;
+    }
+    .services-caption{
+        font-size:12px;
+    }
+}
+
+.custom-shape-divider-bottom-1631928642 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1631928642 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 124px;
+}
+
+.custom-shape-divider-bottom-1631928642 .shape-fill {
+    fill: #ffc964;
+}
+
+
+
+/*services*/
+
+.custom-shape-divider-bottom-1631930010 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1631930010 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 124px;
+}
+
+.custom-shape-divider-bottom-1631930010 .shape-fill {
+    fill: #071a4a;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-bottom-1631930010 svg {
+        width: calc(153% + 1.3px);
+        height: 90px;
+    }
+}
+
+/*another one*/
+
+.custom-shape-divider-bottom-1631931433 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1631931433 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 124px;
+}
+
+.custom-shape-divider-bottom-1631931433 .shape-fill {
+    fill: #fdf5e6;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-bottom-1631931433 svg {
+        width: calc(153% + 1.3px);
+        height: 129px;
+    }
+}
+
+
+
+
